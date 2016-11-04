@@ -1,0 +1,53 @@
+<!--
+Name: Connor McLaughlin
+CS Username: cmclaugh
+Email: Connor_McLaughlin@student.uml.edu
+Student ID: 01372970
+
+File: /usr/cs/undergrad/2017/cmclaugh/public_html/table.html
+GUI Programming I Assignment 5: Multiplication Table
+
+
+ updated  on Novemeber 4, 2016 at 7:41 PM
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+  <!-- Input Panel holding buttons for table.js's xStart, xEnd,
+       yStart and yEnd -->
+    <div id= "input">
+      <div id= "horizontal">
+        <p> Enter Horizontal Start </p>
+        <input id="x_start">
+        <p> Enter Horizontal End </p>
+      <input id="x_end">
+      </div>
+      <div id="verticle">
+        <p> Enter Verticle Start </p>
+        <input id="y_start">
+        <p> Enter Verticle End </p>
+        <input id="y_end">
+      </div>
+      <!-- demo is the output for the error messages from the handleExeception() -->
+      <div id= "output">
+        <p id="demo"></p>
+      </div>  
+    
+      <!-- Submit button -->
+    <button type="submit" onclick="createTable()">Submit</button>
+    </div> 
+    <!-- Where the actual table will go -->
+    <table id="mult_table" border="1">
+      
+    </table>
+
+    
+
+    <script src="table.js"></script>
+  </body>
+</html>

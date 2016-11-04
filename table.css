@@ -1,0 +1,33 @@
+
+/* Set color along with font */
+body {
+	background-color: #89CFF0;
+	font-family: 'Times New Roman';
+	margin-left:5%;
+	margin-right: 10%;
+}
+/* Put border arond control panel, set height and width */
+#input {
+	border: double;
+	float: left;
+	height: 500px;
+	width:15%;
+	min-width: 180px;
+}
+/* Position the multiplication table to left of the control panel
+   Set the background to lightblue */
+#mult_table{
+	margin-left:18%;
+	position: absolute;
+	background-color: lightblue;
+}
+/* Make each first row navy then make the text color white  */
+tr:nth-child(1) {
+    background-color: navy;
+    color: white;   
+}
+/* Make each first row navy then make the text color white */
+td:nth-child(1){
+	background-color: navy;
+	color: white;
+}
